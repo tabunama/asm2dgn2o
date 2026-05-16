@@ -4,7 +4,7 @@ Python package for ASM2d-GHG/N₂O dynamic process modelling.
 
 ## Installation
 
-The same compiled model can be installed using one of three PyPI package names:
+The same compiled model can be installed using one of three package names:
 
 ```bash
 pip install asm2dn2o
@@ -24,10 +24,6 @@ pip install asm2dg
 
 `asm2dn2o` is the main compiled package. `asm2dghg` and `asm2dg` are alias packages that depend on `asm2dn2o` and expose the same model engine.
 
-The package is currently distributed as a compiled wheel for:
-
-- Windows x64
-- CPython 3.12
 
 ## Import
 
@@ -54,9 +50,6 @@ The package currently provides:
 - `combiner` : flow-weighted two-stream mixer
 - `delay` : hydraulic delay block
 
-## Package boundary
-
-The PyPI wheel includes the compiled model kernels only.
 
 ## License and attribution
 
