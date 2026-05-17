@@ -22,9 +22,6 @@ or:
 pip install asm2dg
 ```
 
-`asm2dn2o` is the main compiled package. `asm2dghg` and `asm2dg` are alias packages that depend on `asm2dn2o` and expose the same model engine.
-
-
 ## Import
 
 ```python
@@ -43,12 +40,12 @@ from asm2dg import asm2d_g, clarifiers, combiner, delay
 
 The package currently provides:
 
-- `asm2d_n2o` : main ASM2d-N₂O / ASM2d-GHG biochemical reactor kernel
+- `asm2d_n2o` : ASM2d-GHG/N₂O biochemical reactor
 - `asm2d_ghg` : alias of `asm2d_n2o`
 - `asm2d_g` : alias of `asm2d_n2o`
-- `clarifiers` : primary and secondary clarifier separation blocks
-- `combiner` : flow-weighted two-stream mixer
-- `delay` : hydraulic delay block
+- `clarifiers` : primary and secondary clarifier
+- `combiner` : two-stream mixer
+- `delay` : hydraulic delay
 
 
 ## License and attribution
