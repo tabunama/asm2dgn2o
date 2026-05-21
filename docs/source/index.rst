@@ -1,7 +1,7 @@
-ASM2d-GHG/N₂O
-================
+ASM2d-GHG/N₂O pH-Adjust
+========================
 
-Python package for ASM2d-GHG/N₂O dynamic process modelling.
+Python package for ASM2d-GHG/N₂O pH Adjust dynamic process modelling.
 
 Overview
 --------
@@ -15,18 +15,13 @@ The same compiled model can be used through three PyPI package names:
    pip install asm2dg
 
 The main package is ``asm2dn2o``. The packages ``asm2dghg`` and ``asm2dg`` are
-aliases to ``asm2dn2o`` and expose the same compiled four models:
-
-- `asm2d_n2o` = `asm2d_ghg` = `asm2d_g` : ASM2d-GHG/N₂O biochemical reactor
-- `clarifiers` : primary and secondary clarifier separation
-- `combiner` : flow-weighted two-stream mixer
-- `delay` : hydraulic delay
+aliases to ``asm2dn2o``
 
 .. code-block:: python
 
-   from asm2dn2o import asm2d_n2o, clarifiers, combiner, delay
-   from asm2dghg import asm2d_ghg, clarifiers, combiner, delay
-   from asm2dg import asm2d_g, clarifiers, combiner, delay
+   from asm2dn2o import asm2d_n2o, clarifiers, combiner, delay, PCM_speciation_DAE, flotation, ASM2dmode_GHG_pH, ...
+   from asm2dghg import asm2d_n2o, clarifiers, combiner, delay, PCM_speciation_DAE, flotation, ASM2dmode_GHG_pH, ...
+   from asm2dg import asm2d_n2o, clarifiers, combiner, delay, PCM_speciation_DAE, flotation, ASM2dmode_GHG_pH, ...
 
 The model extends the IWA ASM framework for biological carbon, nitrogen, and
 phosphorus removal with explicit nitrous oxide pathway representation and
@@ -65,13 +60,12 @@ A more detailed equation-level description is provided on the dedicated
 Why this package is useful
 --------------------------
 
-The package is designed as a compact modelling kernel rather than a full
-end-user application. It gives the user the compiled building blocks needed to:
+It gives the user the needed to:
 
-- assemble dynamic ASM2d-GHG/N₂O reactor simulations in Python,
-- build plant-specific municipal anaerobic/anoxic/oxic (A2/O) or other layouts; including primary and secondary clarifiers, hydraulic combiner and delay, etc.,
-- test control logics on aeration, RAS, WAS, etc.
-- analyse DO, NH₄, NO₂, NO₃, and N₂O dynamics,
+- assemble dynamic ASM2d-GHG/N₂O simulations fully in Python,
+- build plant-specific layouts,
+- test control logics,
+- analyse dynamics,
 - connect biological production with gas stripping and off-gas behaviour.
 
 
@@ -88,7 +82,6 @@ For citation, license and contact information, see:
    installation
    running
    inputs_outputs/index
-   unit_modules/index
    configuration/index
    examples/index
    n2o_pathways

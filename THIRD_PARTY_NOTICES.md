@@ -1,6 +1,6 @@
-``ASM2d-GHG/N₂O`` : Third-Party Notices / Attribution
+``ASM2d-GHG/N₂O  pH-Adjust`` : Third-Party Notices / Attribution
 
-This distribution contains compiled extensions that are derived from the ``ASM2d-GHG/N₂O`` model and related wastewater process model components (reactor, clarifiers, combiner, delay).
+This distribution contains compiled extensions that are derived from the ``ASM2d-GHG/N₂O  pH-Adjust`` model and related wastewater process model components (reactor, clarifiers, combiner, delay).
 
 
 Upstream terms
@@ -13,7 +13,6 @@ Requested acknowledgements
 * Please send feedback on errors/improvements and share relevant scientific papers with the authors.
 
 
-
 Upstream authors / modification history :
 
 * Krist V. Gernaey (DTU/PROSYS, 2004)
@@ -22,7 +21,6 @@ Upstream authors / modification history :
 * Borja Solés (UAB, 2020)
 * Tianyu Lei (DTU/PROSYS, 2023)
 * Taher Abunama (2025)
-
 
 
 Python packaging :

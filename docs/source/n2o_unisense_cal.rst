@@ -16,22 +16,8 @@ Overview
 Dissolved N₂O was monitored in the biological reactors using liquid-phase
 sensors installed at representative locations in aerated and non-aerated
 zones. The sensor signal is interpreted as dissolved ``N₂O-N`` in the liquid
-phase. This is useful because it captures:
+phase.
 
-- accumulation during low-stripping periods,
-- rapid release during aeration transitions,
-- peak-driven behavior that is often more relevant than daily averages alone.
-
-A key principle of the workflow is that the **same gas-liquid transfer logic**
-is used to:
-
-1. convert measured dissolved N₂O into emitted N₂O, and
-2. compute emissions from simulated dissolved N₂O.
-
-This is important because full-scale N₂O emissions often reflect **stripping of
-previously accumulated dissolved N₂O**, not only instantaneous biological
-production. The formulation below follows the project note you provided for
-Unisense-based sensing and emission quantification.
 
 Dissolved N₂O sensing
 ---------------------
@@ -122,9 +108,6 @@ logic should be applied to both:
 
 - measured dissolved N₂O, and
 - simulated dissolved N₂O.
-
-This makes measurement and simulation directly comparable within the same
-boundary and with the same stripping assumptions.
 
 Mass transfer coefficient from aeration field size and airflow
 --------------------------------------------------------------

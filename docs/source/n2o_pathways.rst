@@ -5,9 +5,7 @@ Purpose
 -------
 
 This page documents how the current ``asm2d_n2o`` represents N₂O
-formation, conversion, and stripping. It is intended as a scientific
-reference page that connects the conceptual pathways to the actual
-process-rate terms implemented in the compiled reactor code.
+formation, conversion, and stripping.
 
 Scope 
 ---------------------------

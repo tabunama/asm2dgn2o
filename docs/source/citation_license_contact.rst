@@ -3,11 +3,11 @@ Citation, License and Contact
 
 Citation
 ----------------
-ASM2d-GHG/N₂O Python Package (2026).
-Taher Abunama, Stéphane Nonet, Nicolas Staelens, Tianyu Lei, Xavier Flores-Alsina, and Krist V. Gernaey. 
+ASM2d-GHG/N₂O  pH-Adjust Python Package (2026).
+Taher Abunama, Tianyu Lei, Xavier Flores-Alsina, and Krist V. Gernaey. 
 `https://tabunama.github.io/asm2dn2o/index.html <https://tabunama.github.io/asm2dn2o/index.html>`_
 
-ASM2d-GHG/N₂O names: The ``asm2dn2o`` package is the main compiled package; ``asm2dghg`` and
+ASM2d-GHG/N₂O pH-Adjust names: The ``asm2dn2o`` package is the main compiled package; ``asm2dghg`` and
 ``asm2dg`` are aliases for the same model engine.
 
 Upstream license agreement (DTU/PROSYS)
@@ -26,7 +26,7 @@ Matlab Original development and modification lineage:
 - Tianyu Lei (DTU/PROSYS, 2023)
 - Taher Abunama (SPGE/CEBEDEAU, 2025)
 
-The ASM2d_N2O model includes activated sludge units with N2O
+The ASM2d_N2O  pH-Adjust model includes activated sludge with N2O
 production/conversion processes and additional gas-liquid transfer process in
 covered reactors, clarifiers units, flotation units and potential
 inter-connections among those units. The ASR receives influents from anaerobic
